@@ -53,14 +53,14 @@ h1 {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
     z-index: 999;
     padding: 20px;
 }
 
 /* Modal Content */
 .modal-content {
-    background: white;
+    background: #f4f4f4;
     border-radius: 20px;
     padding: 30px;
     text-align: center;
@@ -68,7 +68,8 @@ h1 {
     max-width: 500px;
     width: 100%;
     position: relative;
-    animation: slideIn 0.5s ease; /* Animation when modal opens */
+    opacity: 0.8;
+    animation: slideIn 0.5s ease; 
 }
 
 @keyframes slideIn {
@@ -97,7 +98,8 @@ h1 {
     color: #333;
 }
 
-/* Close Modal Button Inside Modal */
+
+
 .close-modal-btn {
     padding: 15px 30px;
     background-color: #7f7fd5;
